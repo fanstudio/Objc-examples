@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DC21D8B1D310134000029CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC21D8A1D310134000029CE /* main.m */; };
+		7DC21D8E1D310134000029CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC21D8D1D310134000029CE /* AppDelegate.m */; };
+		7DC21D911D310134000029CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC21D901D310134000029CE /* ViewController.m */; };
+		7DC21D941D310134000029CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC21D921D310134000029CE /* Main.storyboard */; };
+		7DC21D961D310134000029CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC21D951D310134000029CE /* Assets.xcassets */; };
+		7DC21D991D310134000029CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC21D971D310134000029CE /* LaunchScreen.storyboard */; };
+		7DC21DA31D3101F8000029CE /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC21DA21D3101F8000029CE /* Caculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DC21D861D310134000029CE /* CaculatorByChainCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaculatorByChainCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC21D8A1D310134000029CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DC21D8C1D310134000029CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DC21D8D1D310134000029CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DC21D8F1D310134000029CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DC21D901D310134000029CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DC21D931D310134000029CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DC21D951D310134000029CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DC21D981D310134000029CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DC21D9A1D310134000029CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC21DA11D3101F8000029CE /* Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
+		7DC21DA21D3101F8000029CE /* Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DC21D831D310134000029CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DC21D7D1D310134000029CE = {
+			isa = PBXGroup;
+			children = (
+				7DC21D881D310134000029CE /* CaculatorByChainCode */,
+				7DC21D871D310134000029CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC21D871D310134000029CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC21D861D310134000029CE /* CaculatorByChainCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DC21D881D310134000029CE /* CaculatorByChainCode */ = {
+			isa = PBXGroup;
+			children = (
+				7DC21DA01D3101B7000029CE /* Caculator */,
+				7DC21D8C1D310134000029CE /* AppDelegate.h */,
+				7DC21D8D1D310134000029CE /* AppDelegate.m */,
+				7DC21D8F1D310134000029CE /* ViewController.h */,
+				7DC21D901D310134000029CE /* ViewController.m */,
+				7DC21D921D310134000029CE /* Main.storyboard */,
+				7DC21D951D310134000029CE /* Assets.xcassets */,
+				7DC21D971D310134000029CE /* LaunchScreen.storyboard */,
+				7DC21D9A1D310134000029CE /* Info.plist */,
+				7DC21D891D310134000029CE /* Supporting Files */,
+			);
+			path = CaculatorByChainCode;
+			sourceTree = "<group>";
+		};
+		7DC21D891D310134000029CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DC21D8A1D310134000029CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DC21DA01D3101B7000029CE /* Caculator */ = {
+			isa = PBXGroup;
+			children = (
+				7DC21DA11D3101F8000029CE /* Caculator.h */,
+				7DC21DA21D3101F8000029CE /* Caculator.m */,
+			);
+			path = Caculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DC21D851D310134000029CE /* CaculatorByChainCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC21D9D1D310134000029CE /* Build configuration list for PBXNativeTarget "CaculatorByChainCode" */;
+			buildPhases = (
+				7DC21D821D310134000029CE /* Sources */,
+				7DC21D831D310134000029CE /* Frameworks */,
+				7DC21D841D310134000029CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaculatorByChainCode;
+			productName = CaculatorByChainCode;
+			productReference = 7DC21D861D310134000029CE /* CaculatorByChainCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DC21D7E1D310134000029CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fanstudio;
+				TargetAttributes = {
+					7DC21D851D310134000029CE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DC21D811D310134000029CE /* Build configuration list for PBXProject "CaculatorByChainCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DC21D7D1D310134000029CE;
+			productRefGroup = 7DC21D871D310134000029CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DC21D851D310134000029CE /* CaculatorByChainCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DC21D841D310134000029CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC21D991D310134000029CE /* LaunchScreen.storyboard in Resources */,
+				7DC21D961D310134000029CE /* Assets.xcassets in Resources */,
+				7DC21D941D310134000029CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DC21D821D310134000029CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC21DA31D3101F8000029CE /* Caculator.m in Sources */,
+				7DC21D911D310134000029CE /* ViewController.m in Sources */,
+				7DC21D8E1D310134000029CE /* AppDelegate.m in Sources */,
+				7DC21D8B1D310134000029CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DC21D921D310134000029CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC21D931D310134000029CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DC21D971D310134000029CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC21D981D310134000029CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DC21D9B1D310134000029CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DC21D9C1D310134000029CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DC21D9E1D310134000029CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaculatorByChainCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanstudio.CaculatorByChainCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DC21D9F1D310134000029CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaculatorByChainCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanstudio.CaculatorByChainCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DC21D811D310134000029CE /* Build configuration list for PBXProject "CaculatorByChainCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC21D9B1D310134000029CE /* Debug */,
+				7DC21D9C1D310134000029CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC21D9D1D310134000029CE /* Build configuration list for PBXNativeTarget "CaculatorByChainCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC21D9E1D310134000029CE /* Debug */,
+				7DC21D9F1D310134000029CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DC21D7E1D310134000029CE /* Project object */;
+}
